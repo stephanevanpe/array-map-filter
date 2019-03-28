@@ -24,6 +24,11 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+  return names.filter(function(lalala){
+    if (lalala.endsWith('Stark')){
+      return lalala
+    }
+  })
 }
 
 // Ne pas modifier l'export
